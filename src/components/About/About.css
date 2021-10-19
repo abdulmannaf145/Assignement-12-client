@@ -1,0 +1,6 @@
+.backgroundImg{
+    background-image: url(../../images/About.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+}

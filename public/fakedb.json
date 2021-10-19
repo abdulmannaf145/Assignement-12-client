@@ -1,0 +1,38 @@
+[
+    {
+        "key": 1,
+        "img": "https://pro-theme.com/html/health/media/services/1.png",
+        "title": "Diagnose & Research",
+        "pragraph": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]"
+    },
+    {
+        "key": 2,
+        "img": "https://pro-theme.com/html/health/media/services/2.png",
+        "title": "Dental Surgery",
+        "pragraph": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]"
+    },
+    {
+        "key": 3,
+        "img": "https://pro-theme.com/html/health/media/services/3.png",
+        "title": "Cancer Oncology",
+        "pragraph": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]"
+    },
+    {
+        "key": 4,
+        "img": "https://pro-theme.com/html/health/media/services/4.png",
+        "title": "Neurology",
+        "pragraph": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]"
+    },
+    {
+        "key": 5,
+        "img": "https://pro-theme.com/html/health/media/services/5.png",
+        "title": "Drug / Medicine",
+        "pragraph": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]"
+    },
+    {
+        "key": 6,
+        "img": "https://pro-theme.com/html/health/media/services/6.png",
+        "title": "Heart Center",
+        "pragraph": "Justo laoreet dignis sim lectus duic etiamd ipsum habitant tristique nam est. Donec venenatis leo eu varius curus da metus nunc placerat cursus [...]"
+    }
+]

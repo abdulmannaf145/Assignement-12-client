@@ -5,10 +5,18 @@ import { useHistory, useLocation } from "react-router";
 import useAuth from '../hooks/useAuth';
 
 const Login = () => {
-    const { googleSignIn } = useAuth();
     const location = useLocation();
     const history = useHistory();
-    const redirect_url = location.state?.from || '/'
+    const redirect_url = location.state?.from || '/home'
+    const { googleSignIn } = useAuth();
+    const emary = () =>{
+      googleSignIn().then(result => {
+        history.push(redirect_url);
+            }).catch(error => {
+                
+            })
+    }
+    
 
     const auth = getAuth();
 
@@ -62,7 +70,7 @@ const Login = () => {
             Submit
           </button>
           <p>Already have an account <Link to="/register">Sign in</Link></p>
-          <button onClick={googleSignIn} className="btn btn-primary">Google Sign In</button>
+          <button onClick={emary} className="btn btn-primary">Google Sign In</button>
         </form>
         </div>
     );

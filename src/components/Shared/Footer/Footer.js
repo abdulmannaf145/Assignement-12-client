@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row row-cols-lg-4 row-cols-md-2 row-cols-1">
                     <div className="col text-start">
                         <div className="mb-3">
-                            <img src={logo} style={{ height: '25px' }} alt="logo" />
+                            <img src={logo} style={{ width: '150px' }} alt="logo" />
                         </div>
                         <p>Outsource your HR functions to industry-specialized experts.</p>
                         <ul className="d-flex list-unstyled">

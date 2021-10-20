@@ -6,9 +6,11 @@ const Task = () => {
         <div className="container py-3">
             <h1>Easy 3 Step To Task</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button className="btn btn-primary">Choose Doctors</button>
-            <button className="btn btn-primary mx-3">Booking Doctors</button>
-            <button className="btn btn-primary">Doctors Service</button>
+            <div className="row">
+                <button className="btn btn-primary ">Choose Doctors</button>
+                <button className="btn btn-primary mx-3 ">Booking Doctors</button>
+                <button className="btn btn-primary ">Doctors Service</button>
+            </div>
             <div className="mt-5 row row-cols-lg-2 row-cols-md-1 row-cols-1">
                 <div className="col">
                     <img src={img} className="img-fluid" alt="" />

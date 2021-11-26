@@ -35,6 +35,7 @@ const useFirebase = () => {
         })
     }, []);
     return {
+        emailPasswordSignIn,
         googleSignIn,
         user,
         error,
